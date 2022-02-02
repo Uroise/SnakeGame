@@ -1,4 +1,8 @@
-﻿namespace SnakeGame
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace SnakeGame
 {
     internal abstract class GameObject
     {

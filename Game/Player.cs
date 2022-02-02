@@ -8,8 +8,9 @@ namespace SnakeGame
     {
         public Player()
         {
+            
         }
-        public enum direction
+        public enum Direction
         {
             Up, Down, Left, Right
         }
