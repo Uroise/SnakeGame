@@ -6,8 +6,12 @@ namespace SnakeGame
 {
     internal class Position
     {
-       public int positionX;
-        public int positionY;
-
+        public int positionX { get; set; }
+        public int positionY { get; set; }
+        public Position(int _positionX, int _positionY)
+        {
+            this.positionX = _positionX;
+            this.positionY = _positionY;
+        }
     }
 }
