@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading;
 
-namespace Game
+namespace SnakeGame
 {
     internal class Program
     {

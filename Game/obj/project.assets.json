@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Visual Studio\\Repos\\Game\\Game\\Game.csproj",
-      "projectName": "Game",
-      "projectPath": "E:\\Visual Studio\\Repos\\Game\\Game\\Game.csproj",
+      "projectUniqueName": "E:\\Visual Studio\\Repos\\Game\\Game\\SnakeGame.csproj",
+      "projectName": "SnakeGame",
+      "projectPath": "E:\\Visual Studio\\Repos\\Game\\Game\\SnakeGame.csproj",
       "packagesPath": "C:\\Users\\Uroise\\.nuget\\packages\\",
       "outputPath": "E:\\Visual Studio\\Repos\\Game\\Game\\obj\\",
       "projectStyle": "PackageReference",

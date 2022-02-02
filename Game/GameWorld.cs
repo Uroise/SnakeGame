@@ -1,4 +1,4 @@
-﻿namespace Game
+﻿namespace SnakeGame
 {
     internal class GameWorld
     {
