@@ -6,8 +6,10 @@ namespace SnakeGame
 {
     internal abstract class GameObject
     {
-        public int x { get; set; }
-        public int y { get; set; }
+        // Skapade en publikt variabel från klassen Position
+        public Position Position;
+        // Skapade en char variabel för Snake'ts utseende.
+        public char Appearance;
 
         // TODO
         

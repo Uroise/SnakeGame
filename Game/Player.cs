@@ -6,13 +6,12 @@ namespace SnakeGame
 {
     internal abstract class Player : GameObject
     {
-        public string name;
-        public int X;
-        public int Y;
 
-        public Player(string  _name)
+        // Player konstruktor med parameterar x,y för position med base från GameObject variabeln Position.s
+        public Player(int x, int y)
         {
-            name = _name;
+            base.Position.positionX = x;
+            base.Position.positionY = y;
         }
         public enum Direction
         {
