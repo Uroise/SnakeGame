@@ -6,20 +6,13 @@ namespace SnakeGame
 {
     internal abstract class Player : GameObject
     {
-        ConsoleKeyInfo KeyInfo = new ConsoleKeyInfo();
-        char apparance = '#';
-        List<Position> playerPosition;
+        public string name;
+        public int X;
+        public int Y;
 
-        public int positionX;
-        public int positionY;
-
-        public Player()
+        public Player(string  _name)
         {
-            positionX = 20;
-            positionY = 20;
-
-            playerPosition = new List<Position>();
-            playerPosition.Add(new Position(positionX, positionY));
+            name = _name;
         }
         public enum Direction
         {

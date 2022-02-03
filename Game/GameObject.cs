@@ -6,10 +6,11 @@ namespace SnakeGame
 {
     internal abstract class GameObject
     {
-        int position;
-        char appearance = '#';
-        // TODO
+        public int x { get; set; }
+        public int y { get; set; }
 
+        // TODO
+        
         public abstract void Update();
     }
 }

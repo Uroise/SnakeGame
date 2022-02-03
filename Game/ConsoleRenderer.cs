@@ -19,6 +19,7 @@ namespace SnakeGame
 
         public void Render()
         {
+            Console.CursorVisible = false;
             // TODO Rendera spelvärlden (och poängräkningen)
             Console.Clear();
             for (int i = 1; i <= (width + 2) ; i++)

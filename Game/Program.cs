@@ -16,6 +16,7 @@ namespace SnakeGame
             const int frameRate = 5;
             GameWorld world = new GameWorld();
             ConsoleRenderer renderer = new ConsoleRenderer(world);
+            
 
             // TODO Skapa spelare och andra objekt etc. genom korrekta anrop till vår GameWorld-instans
             // ...
@@ -53,6 +54,7 @@ namespace SnakeGame
                 // Uppdatera världen och rendera om
                 world.Update();
                 renderer.Render();
+
 
                 // Mät hur lång tid det tog
                 double frameTime = Math.Ceiling((1000.0 / frameRate) - (DateTime.Now - before).TotalMilliseconds);
