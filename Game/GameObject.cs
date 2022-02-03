@@ -11,6 +11,9 @@ namespace SnakeGame
 
         // TODO
         
-        public abstract void Update();
+        public void Update()
+        {
+            
+        }
     }
 }
