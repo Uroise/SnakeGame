@@ -15,7 +15,7 @@ namespace SnakeGame
             
                 // Initialisera spelet
                 const int frameRate = 5;
-                GameWorld world = new GameWorld();
+                GameWorld world = new GameWorld(50,20);
                 ConsoleRenderer renderer = new ConsoleRenderer(world);
 
                 // TODO Skapa spelare och andra objekt etc. genom korrekta anrop till vår GameWorld-instans
