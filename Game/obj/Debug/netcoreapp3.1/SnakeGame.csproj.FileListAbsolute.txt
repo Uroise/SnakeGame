@@ -12,3 +12,17 @@ E:\Visual Studio\Repos\Game\Game\obj\Debug\netcoreapp3.1\SnakeGame.csproj.CoreCo
 E:\Visual Studio\Repos\Game\Game\obj\Debug\netcoreapp3.1\SnakeGame.dll
 E:\Visual Studio\Repos\Game\Game\obj\Debug\netcoreapp3.1\SnakeGame.pdb
 E:\Visual Studio\Repos\Game\Game\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.exe
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.deps.json
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.json
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.dev.json
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.dll
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.pdb
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.csproj.AssemblyReference.cache
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfoInputs.cache
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfo.cs
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.dll
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.pdb
+C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache

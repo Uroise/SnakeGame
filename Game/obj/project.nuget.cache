@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9mdnhCPlyq7tU5OkPzeM095s5gxdCEWpVY+B8sLw3OglhIk7Calq4noMClqM6Er20Rxt8HqcUEv1HlBdyCk9pw==",
+  "dgSpecHash": "8YvwKAAVu3ztMOvEbYgbV2EVeCUyboA6lANb87oDCqrjxeOQfTlpkLcL+02/FcSvu0EOMLQOWRoRGjfQcr95rQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\simme\\Desktop\\New folder\\SnakeGame\\Game\\SnakeGame.csproj",
+  "projectFilePath": "C:\\Users\\simme\\Desktop\\Snake\\SnakeGame\\Game\\SnakeGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
