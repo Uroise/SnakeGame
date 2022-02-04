@@ -12,16 +12,15 @@ namespace SnakeGame
 
         public int x { get; set; }
         public int y { get; set; }
-        public Snake()
+        public Snake(int x, int y)
         {
-            x = 20;
-            y = 20;
+            drawSnake(x, y);
         }
 
-        public void drawSnake()
+        public void drawSnake(int x, int y)
         {
             Console.SetCursorPosition(x, y);
-            Console.Write("#");
+            //Console.Write("#");
         }
 
         public void Input()

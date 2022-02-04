@@ -13,5 +13,8 @@ namespace SnakeGame
             this.positionX = _positionX;
             this.positionY = _positionY;
         }
+        public void Update() {
+            //TODO
+        }
     }
 }
