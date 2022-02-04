@@ -15,6 +15,7 @@ namespace SnakeGame
         // Update metoden för Food.
         public void Update()
         {
+
             return;
         }
     }
