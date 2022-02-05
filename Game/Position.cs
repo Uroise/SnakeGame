@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SnakeGame
+﻿namespace SnakeGame
 {
-    internal class Position
+    public class Position
     {
-        public int positionX { get; set; }
-        public int positionY { get; set; }
-        public Position(int _positionX, int _positionY)
+        public int X { get; set; }
+        public int Y { get; set; }
+        public Position(int positionX, int positionY)
         {
-            this.positionX = _positionX;
-            this.positionY = _positionY;
+            X = positionX;
+            Y = positionY;
         }
     }
 }
