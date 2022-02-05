@@ -20,7 +20,7 @@ namespace SnakeGame
         {
             foreach (GameObject obj in world.gameObjects)
             {
-                if (obj.Position.X == world.width - 1) // ifall snake träffar väggen den börjar om från andra sidan.
+                if (obj.Position.X >= world.width - 1) // ifall snake träffar väggen den börjar om från andra sidan.
                 {
                     obj.Position.X = 2;
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);

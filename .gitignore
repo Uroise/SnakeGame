@@ -33,3 +33,4 @@ Game/obj/SnakeGame.csproj.nuget.g.props
 *.pdb
 *.json
 *.txt
+.vs/SnakeGame/v17/.suo
