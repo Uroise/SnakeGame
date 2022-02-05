@@ -1,49 +1,42 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace SnakeGame
+﻿namespace SnakeGame
 {
-    //Skrivit en snake klass som skriver ut ormen på en specifik position
-    public class Snake
-    {
-        ConsoleKeyInfo keyInfo = new ConsoleKeyInfo { };
-        char key = 'w';
 
-        public int x { get; set; }
-        public int y { get; set; }
-        public Snake(int x, int y)
-        {
-            drawSnake(x, y);
-        }
-
-        public void drawSnake(int x, int y)
-        {
-            Console.SetCursorPosition(x, y);
-            //Console.Write("#");
-        }
-
-        public void Input()
-        {
-            if (Console.KeyAvailable)
-            {
-                key = keyInfo.KeyChar;
-            }
-        }
-
-    }
-    internal abstract class Player : GameObject
+    public class Player : GameObject
     {
 
-        // Player konstruktor med parameterar x,y för position med base från GameObject variabeln Position.s
-        public Player(int x, int y)
+        // Player konstruktor med parameterar char, x,y för position med base från GameObject variabeln Position
+        public Player(Position position, char SnakeHead) : base(position, SnakeHead)
         {
-            base.Position.positionX = x;
-            base.Position.positionY = y;
+
         }
+
         public enum Direction
         {
             Up, Down, Left, Right
+        }
+
+
+
+        // En update metod för Player där den flyttar sig i spelarens riktning.
+        public void Update(Direction Type)
+        {
+            switch (Type)
+            {
+                case Direction.Up:
+                    Position.Y--;
+                    break;
+                case Direction.Down:
+                    Position.Y++;
+                    break;
+                case Direction.Right:
+                    Position.X++;
+                    break;
+                case Direction.Left:
+                    Position.X--;
+                    break;
+            }
+
+
         }
     }
 }

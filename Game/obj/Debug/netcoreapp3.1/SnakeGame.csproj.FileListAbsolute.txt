@@ -26,17 +26,17 @@ C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.cs
 C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.dll
 C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.pdb
 C:\Users\simme\Desktop\Snake\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache
-D:\School\Visual Studio\Repos\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.exe
-D:\School\Visual Studio\Repos\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.deps.json
-D:\School\Visual Studio\Repos\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.json
-D:\School\Visual Studio\Repos\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.dev.json
-D:\School\Visual Studio\Repos\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.dll
-D:\School\Visual Studio\Repos\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.pdb
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.csproj.AssemblyReference.cache
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfoInputs.cache
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfo.cs
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.csproj.CoreCompileInputs.cache
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.dll
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.pdb
-D:\School\Visual Studio\Repos\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache
+C:\Users\paima\Desktop\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.exe
+C:\Users\paima\Desktop\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.deps.json
+C:\Users\paima\Desktop\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.json
+C:\Users\paima\Desktop\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.runtimeconfig.dev.json
+C:\Users\paima\Desktop\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.dll
+C:\Users\paima\Desktop\SnakeGame\Game\bin\Debug\netcoreapp3.1\SnakeGame.pdb
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.csproj.AssemblyReference.cache
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfoInputs.cache
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.AssemblyInfo.cs
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.csproj.CoreCompileInputs.cache
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.dll
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.pdb
+C:\Users\paima\Desktop\SnakeGame\Game\obj\Debug\netcoreapp3.1\SnakeGame.genruntimeconfig.cache

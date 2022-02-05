@@ -9,8 +9,5 @@
             X = positionX;
             Y = positionY;
         }
-        public void Update() {
-            //TODO
-        }
     }
 }

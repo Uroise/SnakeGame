@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "cWc/cP6ISSo5gaA+f68OLwu4XRJh4fwPERP0jdqI2dGnaxHorjsCvYu72HMuZHf/GFvx031W8oZrdPIAGox0CA==",
+  "dgSpecHash": "fKumg9SqVGfhgmlFVI6N87AppDLlVbH6OweyIoLnJ/lEh3IfizT9gf0ll2ClrtaOirIpPGsvArSqEBZey+bYBg==",
   "success": true,
-  "projectFilePath": "D:\\School\\Visual Studio\\Repos\\SnakeGame\\Game\\SnakeGame.csproj",
+  "projectFilePath": "C:\\Users\\paima\\Desktop\\SnakeGame\\Game\\SnakeGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
