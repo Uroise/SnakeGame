@@ -1,15 +1,6 @@
 
-Game/obj/Debug/netcoreapp3.1/SnakeGame.assets.cache
-Game/obj/Debug/netcoreapp3.1/SnakeGame.csproj.CoreCompileInputs.cache
-Game/obj/Debug/netcoreapp3.1/SnakeGame.csproj.FileListAbsolute.txt
-Game/obj/Debug/netcoreapp3.1/SnakeGame.dll
-Game/obj/Debug/netcoreapp3.1/SnakeGame.GeneratedMSBuildEditorConfig.editorconfig
-Game/obj/Debug/netcoreapp3.1/SnakeGame.genruntimeconfig.cache
-Game/obj/Debug/netcoreapp3.1/SnakeGame.pdb
-Game/obj/project.assets.json
-Game/obj/project.nuget.cache
-Game/obj/SnakeGame.csproj.nuget.dgspec.json
-Game/obj/SnakeGame.csproj.nuget.g.props
+Game/obj/
+Game/bin/
 *.testlog
 *.manifest
 *.dll
@@ -35,3 +26,4 @@ Game/obj/SnakeGame.csproj.nuget.g.props
 *.txt
 .vs/SnakeGame/v17/.suo
 .vs/SnakeGame/v17/.suo
+.vs/
