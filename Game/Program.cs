@@ -17,15 +17,16 @@ namespace SnakeGame
             const int frameRate = 5;
             GameWorld world = new GameWorld(50, 20);
 
+            Random rand = new Random();
 
             ConsoleRenderer renderer = new ConsoleRenderer(world);
 
 
-            Player player = new Player(new Position(5, 5), '#');
-            world.gameObjects.Add(player);
+            Player Snake = new Player(new Position(5, 5), '#');
+            world.gameObjects.Add(Snake);
 
-
-
+            Food Food = new Food(new Position(rand.Next(2, 50), rand.Next(2, 20)), '$');
+            world.gameObjects.Add(Food);
 
 
 
@@ -35,7 +36,8 @@ namespace SnakeGame
             // Huvudloopen
             bool running = true;
             // Vi renderar väggarna en gång.
-            renderer.Render();
+            
+
             while (running)
             {
                 // Kom ihåg vad klockan var i början
@@ -51,29 +53,38 @@ namespace SnakeGame
                     // TODO Lägg till logik för andra knapptryckningar
                     case ConsoleKey.W:
                     case ConsoleKey.UpArrow:
-                        player.Update(Player.Direction.Up);
+                        Snake.Update(Player.Direction.Up);
                         break;
 
                     case ConsoleKey.A:
                     case ConsoleKey.LeftArrow:
-                        player.Update(Player.Direction.Left);
+                        Snake.Update(Player.Direction.Left);
                         break;
 
                     case ConsoleKey.S:
                     case ConsoleKey.DownArrow:
-                        player.Update(Player.Direction.Down);
+                        Snake.Update(Player.Direction.Down);
                         break;
 
                     case ConsoleKey.D:
                     case ConsoleKey.RightArrow:
-                        player.Update(Player.Direction.Right);
+                        Snake.Update(Player.Direction.Right);
                         break;
 
                 }
 
                 // Uppdatera världen och rendera om
-                world.Update();
+                renderer.Render();
+                
+                renderer.RenderBlank();
+
                 renderer.RenderObjects();
+
+                world.Update();
+                
+
+
+
 
 
                 // Mät hur lång tid det tog
