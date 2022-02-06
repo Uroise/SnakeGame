@@ -49,7 +49,7 @@ namespace SnakeGame
                         food.Position.X = rand.Next(3, 48);
                         food.Position.Y = rand.Next(3, 18);
                         Score++;
-                        Console.Title = "Snake Game || Score: " + Score;
+                        Console.Title = "Score: " + Score;
                     }
                 }
             }

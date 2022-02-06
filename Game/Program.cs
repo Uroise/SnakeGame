@@ -15,9 +15,9 @@ namespace SnakeGame
 
             // Initialisera spelet
 
-            const int frameRate = 8;
+            const int frameRate = 5;
             GameWorld world = new GameWorld(50, 20);
-            Console.Title = "Snake Game || Score: " + world.Score;
+            Console.Title = "Score: " + world.Score;
             Random rand = new Random();
 
             ConsoleRenderer renderer = new ConsoleRenderer(world);

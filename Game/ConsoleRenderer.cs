@@ -21,25 +21,25 @@ namespace SnakeGame
             
             foreach (GameObject obj in world.gameObjects)
             {
-                if (obj.Position.X >= world.width - 1) // ifall snake träffar väggen den börjar om från andra sidan.
+                if (obj.Position.X > world.width - 2) // ifall snake träffar väggen den börjar om från andra sidan.
                 {
                     obj.Position.X = 2;
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
                 }
-                else if (obj.Position.X <= 1) // ifall snake träffar väggen den börjar om från andra sidan.
+                else if (obj.Position.X < 2) // ifall snake träffar väggen den börjar om från andra sidan.
                 {
-                    obj.Position.X = world.width - 1;
+                    obj.Position.X = world.width - 2;
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
                 }
-                else if (obj.Position.Y == 1) // ifall snake träffar väggen den börjar om från andra sidan.
+                else if (obj.Position.Y < 2) // ifall snake träffar väggen den börjar om från andra sidan.
                 {
                     obj.Position.Y = world.height - 1;
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
                 }
 
-                else if (obj.Position.Y >= world.height - 1) // ifall snake träffar väggen den börjar om från andra sidan.
+                else if (obj.Position.Y > world.height - 2) // ifall snake träffar väggen den börjar om från andra sidan.
                 {
-                    obj.Position.Y = 1;
+                    obj.Position.Y = 2;
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
                 }
 
@@ -62,19 +62,19 @@ namespace SnakeGame
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
                     Console.Write(" ");
                 }
-                if (obj.Position.X >= world.width)
+                if (obj.Position.X > world.width)
                 {
                     Console.SetCursorPosition(obj.Position.X - 3, obj.Position.Y);
                     Console.Write(" ");
                 }
-                    if (obj.Position.Y < 0)
+                    if (obj.Position.Y < 1)
                 {
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y + 1);
                     Console.Write(" ");
                 }
-                if (obj.Position.Y >= world.height - 2)
+                if (obj.Position.Y > world.height - 2)
                 {
-                    Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
+                    Console.SetCursorPosition(obj.Position.X, obj.Position.Y - 1);
                     Console.Write(" ");
                 }
 
