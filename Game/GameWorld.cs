@@ -18,10 +18,10 @@ namespace SnakeGame
 
         // En Konstruktor för GameWorld med Bredd och Höjd
 
-        public GameWorld(int Width, int Height)
+        public GameWorld(int _width, int _height)
         {
-            width = Width;
-            height = Height;
+            width = _width;
+            height = _height;
 
         }
 
