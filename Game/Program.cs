@@ -14,9 +14,10 @@ namespace SnakeGame
 
 
             // Initialisera spelet
+
             const int frameRate = 8;
             GameWorld world = new GameWorld(50, 20);
-
+            Console.Title = "Snake Game || Score: " + world.Score;
             Random rand = new Random();
 
             ConsoleRenderer renderer = new ConsoleRenderer(world);
@@ -25,7 +26,7 @@ namespace SnakeGame
             Player Snake = new Player(new Position(5, 5), '#');
             world.gameObjects.Add(Snake);
 
-            Food Food = new Food(new Position(rand.Next(2, 50), rand.Next(2, 20)), '$');
+            Food Food = new Food(new Position(rand.Next(3, 48), rand.Next(3, 18)), '$');
             world.gameObjects.Add(Food);
 
 
@@ -36,7 +37,7 @@ namespace SnakeGame
             // Huvudloopen
             bool running = true;
             // Vi renderar väggarna en gång.
-
+            
             var RunDirection = "Left";
             while (running)
             {
@@ -86,7 +87,7 @@ namespace SnakeGame
 
                 // Uppdatera världen och rendera om
                 renderer.Render();
-                
+
                 renderer.RenderBlank();
 
                 renderer.RenderObjects();

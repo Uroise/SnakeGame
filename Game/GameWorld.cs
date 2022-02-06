@@ -32,30 +32,26 @@ namespace SnakeGame
             {
                 obj.Update();
             }
-            
-            foreach (GameObject player in gameObjects)
+
+            foreach (GameObject gameObject in gameObjects)
             {
-
-                if (player is Player)
+                // Ifall obnjectet är av typen Food
+                if (gameObject is Food food)
                 {
-                    foreach(GameObject food in gameObjects)
-                    {
-                        if (food is Food)
-                        {
-                            if (player.Position.X == food.Position.X && player.Position.Y == food.Position.Y)
-                            {
-                                Console.SetCursorPosition(food.Position.X, food.Position.Y);
-                                Console.Write(' ');
-                                food.Position.X = rand.Next(3, 50);
-                                food.Position.Y = rand.Next(3, 20);
-                             
-                            }
-                                
+                    // Hämta spelar instansen med hjälp av Linq (Kommer bara funka ifall det finns 1 och enbart 1 instans av Player pga .Single)
+                    Player player = (Player)gameObjects.Single(p => p is Player);
 
-                        }
+                    // Jämnför positionerna som tidigare
+                    if (food.Position.X == player.Position.X && food.Position.Y == player.Position.Y)
+                    {
+                        Console.SetCursorPosition(food.Position.X, food.Position.Y);
+                        Console.Write(' ');
+                        food.Position.X = rand.Next(3, 48);
+                        food.Position.Y = rand.Next(3, 18);
+                        Score++;
+                        Console.Title = "Snake Game || Score: " + Score;
                     }
                 }
-                
             }
 
         }
