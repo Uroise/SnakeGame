@@ -27,10 +27,10 @@ namespace SnakeGame
                 }
                 else if (obj.Position.X < 2) // ifall snake träffar väggen den börjar om från andra sidan.
                 {
-                    obj.Position.X = world.width - 2;
+                    obj.Position.X = world.width - 1;
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);
                 }
-                else if (obj.Position.Y < 2) // ifall snake träffar väggen den börjar om från andra sidan.
+                else if (obj.Position.Y < 1) // ifall snake träffar väggen den börjar om från andra sidan.
                 {
                     obj.Position.Y = world.height - 1;
                     Console.SetCursorPosition(obj.Position.X, obj.Position.Y);

@@ -14,7 +14,7 @@ namespace SnakeGame
 
 
             // Initialisera spelet
-            const int frameRate = 5;
+            const int frameRate = 8;
             GameWorld world = new GameWorld(50, 20);
 
             Random rand = new Random();
@@ -36,12 +36,24 @@ namespace SnakeGame
             // Huvudloopen
             bool running = true;
             // Vi renderar väggarna en gång.
-            
 
+            var RunDirection = "Left";
             while (running)
             {
                 // Kom ihåg vad klockan var i början
+                
                 DateTime before = DateTime.Now;
+
+                // Logik för kontroll av Snake position och för den ska kunna köra i en riktning
+                if (RunDirection == "Up")
+                    Snake.Update(Player.Direction.Up);
+                if (RunDirection == "Down")
+                    Snake.Update(Player.Direction.Down);
+                if (RunDirection == "Left")
+                    Snake.Update(Player.Direction.Left);
+                if (RunDirection == "Right")
+                    Snake.Update(Player.Direction.Right);
+
 
                 // Hantera knapptryckningar från användaren
                 ConsoleKey key = ReadKeyIfExists();
@@ -53,22 +65,21 @@ namespace SnakeGame
                     // TODO Lägg till logik för andra knapptryckningar
                     case ConsoleKey.W:
                     case ConsoleKey.UpArrow:
-                        Snake.Update(Player.Direction.Up);
+                        RunDirection = "Up";
                         break;
 
                     case ConsoleKey.A:
                     case ConsoleKey.LeftArrow:
-                        Snake.Update(Player.Direction.Left);
+                        RunDirection = "Left";
                         break;
-
                     case ConsoleKey.S:
                     case ConsoleKey.DownArrow:
-                        Snake.Update(Player.Direction.Down);
+                        RunDirection = "Down";
                         break;
 
                     case ConsoleKey.D:
                     case ConsoleKey.RightArrow:
-                        Snake.Update(Player.Direction.Right);
+                        RunDirection = "Right";
                         break;
 
                 }
