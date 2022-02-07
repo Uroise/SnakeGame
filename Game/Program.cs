@@ -15,18 +15,20 @@ namespace SnakeGame
 
             // Initialisera spelet
 
-            const int frameRate = 5;
+            int frameRate = 5;
             GameWorld world = new GameWorld(50, 20);
             Console.Title = "Score: " + world.Score;
             Random rand = new Random();
 
+
+            
             ConsoleRenderer renderer = new ConsoleRenderer(world);
 
 
-            Player Snake = new Player(new Position(5, 5), '#');
+            Player Snake = new Player(new Position(5, 5), '■');
             world.gameObjects.Add(Snake);
 
-            Food Food = new Food(new Position(rand.Next(3, 48), rand.Next(3, 18)), '$');
+            Food Food = new Food(new Position(rand.Next(3, 48), rand.Next(3, 18)), '■');
             world.gameObjects.Add(Food);
 
 
@@ -36,13 +38,30 @@ namespace SnakeGame
 
             // Huvudloopen
             bool running = true;
-            // Vi renderar väggarna en gång.
+            
             
             var RunDirection = "Left";
             while (running)
             {
+
+                if (world.Score == 3)
+                {
+                    frameRate = 6;
+                }
+                if (world.Score == 5)
+                {
+                    frameRate = 8;
+                }
+                if (world.Score == 7)
+                {
+                    frameRate = 10;
+                }
+                if (world.Score == 10)
+                {
+                    frameRate = 12;
+                }
                 // Kom ihåg vad klockan var i början
-                
+
                 DateTime before = DateTime.Now;
 
                 // Logik för kontroll av Snake position och för den ska kunna köra i en riktning
@@ -86,12 +105,12 @@ namespace SnakeGame
                 }
 
                 // Uppdatera världen och rendera om
+
+
+
                 renderer.Render();
-
-                renderer.RenderBlank();
-
                 renderer.RenderObjects();
-
+                
                 world.Update();
                 
 

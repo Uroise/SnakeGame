@@ -29,7 +29,7 @@ namespace SnakeGame
         public void Update()
         {
             foreach (GameObject obj in gameObjects)
-            {
+            { 
                 obj.Update();
             }
 
@@ -44,10 +44,7 @@ namespace SnakeGame
                     // Jämnför positionerna som tidigare
                     if (food.Position.X == player.Position.X && food.Position.Y == player.Position.Y)
                     {
-                        Console.SetCursorPosition(food.Position.X, food.Position.Y);
-                        Console.Write(' ');
-                        food.Position.X = rand.Next(3, 48);
-                        food.Position.Y = rand.Next(3, 18);
+                        food.Update();
                         Score++;
                         Console.Title = "Score: " + Score;
                     }
