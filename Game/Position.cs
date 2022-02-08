@@ -11,8 +11,8 @@
         /// <summary>
         /// Position Konstruktorn som ger x och y positionerna
         /// </summary>
-        /// <param name="positionX">X positionen</param>
-        /// <param name="positionY">Y position</param>
+        /// <param name="positionX">X positionen - horizontell</param>
+        /// <param name="positionY">Y position - vertikal</param>
         public Position(int positionX, int positionY)
         {
             X = positionX;

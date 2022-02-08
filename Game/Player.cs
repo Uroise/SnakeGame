@@ -6,7 +6,10 @@ namespace SnakeGame
     /// </summary>
     public class Player : GameObject
     {
-
+        public enum Direction
+        {
+            Up, Down, Left, Right
+        }
         /// <summary>
         /// Player konstruktor med parameterar char, x,y för position med base från GameObject variabeln Position
         /// </summary>
@@ -19,10 +22,7 @@ namespace SnakeGame
         /// <summary>
         /// En enum för Directions.
         /// </summary>
-        public enum Direction
-        {
-            Up, Down, Left, Right
-        }
+
 
 
 

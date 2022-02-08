@@ -10,6 +10,8 @@
         // Skapade en char variabel för Snake'ts utseende.
         public char Appearance;
 
+        
+
         /// <summary>
         /// GameObject konstruktor
         /// </summary>
@@ -21,13 +23,5 @@
             Appearance = appeareance;
         }
 
-        /// <summary>
-        /// En virtual update så player kan update kan ta in parameter.
-        /// </summary>
-        public virtual void Update()
-        {
-
-        }
-       
     }
 }

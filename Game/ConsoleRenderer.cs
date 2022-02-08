@@ -130,7 +130,8 @@ namespace SnakeGame
             Console.ForegroundColor = ConsoleColor.DarkMagenta; // färgar väggarna
             Console.BackgroundColor = ConsoleColor.DarkMagenta;
 
-            for (int i = 1; i <= (world.width - 1); i++)  // bredden på världen där vi kör for loop för både högra och vänstra väggen
+            // bredden på världen där vi kör for loop för både högra och vänstra väggen
+            for (int i = 1; i <= (world.width - 1); i++)  
             {
                 Console.SetCursorPosition(i, 1);
                 Console.Write("■");
@@ -140,7 +141,9 @@ namespace SnakeGame
                 Console.SetCursorPosition(i, (world.height - 1));
                 Console.Write("■");
             }
-            for (int i = 1; i <= (world.height - 1); i++) // höjden  på världen där vi kör for loop för både toppen och botten väggen
+
+            // höjden  på världen där vi kör for loop för både toppen och botten väggen
+            for (int i = 1; i <= (world.height - 1); i++) 
             {
                 Console.SetCursorPosition(1, i);
                 Console.Write("■");
