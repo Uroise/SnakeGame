@@ -14,8 +14,6 @@ namespace SnakeGame
         // Update metoden för Food.
         public void Update()
         {
-
-
             Console.SetCursorPosition(Position.X,Position.Y);
             Console.Write(' ');
             Position.X = rand.Next(3, 48);

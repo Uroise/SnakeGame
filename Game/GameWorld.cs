@@ -4,9 +4,12 @@ using System.Linq;
 
 namespace SnakeGame
 {
+    /// <summary>
+    /// GameWorld klassen där
+    /// </summary>
     public class GameWorld
     {
-        Random rand = new Random();
+
         // En lista som ska innehålla alla objekt i spelet
         public List<GameObject> gameObjects = new List<GameObject>();
 
